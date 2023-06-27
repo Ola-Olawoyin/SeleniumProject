@@ -26,7 +26,7 @@ public class tests {
 			WebDriverManager.edgedriver().setup();
 			 driver = new EdgeDriver();
 		}
-
+                 //Using relative locators.
 		driver.get("https://www.qa.way2automation.com");
                 driver.findElements(RelativeLocator.with(By.TagName("input").above(By.tagName("select").get(2).sendKeys("Ola Olawoyin");
 		driver.findElements(RelativeLocator.with(By.TagName("input").above(By.tagName("select").get(1).sendKeys("07588859542");
