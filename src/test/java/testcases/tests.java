@@ -34,7 +34,7 @@ public class tests {
 		driver.findElements(RelativeLocator.with(By.TagName("input").below(By.tagName("select").get(0).sendKeys("London");
 		driver.findElements(RelativeLocator.with(By.TagName("input").above(By.tagName("select").get(1).sendKeys("Ola17");
 		driver.findElements(RelativeLocator.with(By.TagName("input").above(By.tagName("select").get(2).sendKeys("QAAuto17@");
-		driver.findElement(RelativeLocator.with(By.TagName("input").get.near(By.linkText("Signin").click();
+		driver.findElement(RelativeLocator.with(By.TagName("input").near(By.linkText("Signin").click();
 		//System.out.println(driver.getTitle());
 		//driver.quit();
 
